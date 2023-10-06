@@ -1,1 +1,1 @@
-(()=>{"use strict";const e={sayHi(){console.log("Hi, webpack")}};({setTitle(){document.body.insertAdjacentHTML("beforeend","<h1>Hi, Modal!</h1>")}}).setTitle(),e.sayHi()})();
+(()=>{"use strict";({setTitle(){document.body.insertAdjacentHTML("beforeend","<h1>Hi, Modal!</h1>")}}).setTitle(),console.log("Hi, webpack"),console.log("x")})();
