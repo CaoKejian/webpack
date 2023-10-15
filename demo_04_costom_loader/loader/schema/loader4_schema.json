@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "name必须为字符串类型"
+    },
+    "age": {
+      "type": "number",
+      "description": "age必须为数字类型"
+    }
+  }
+}
