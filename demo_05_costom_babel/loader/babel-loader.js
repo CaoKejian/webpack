@@ -5,7 +5,7 @@ module.exports = function (ctx) {
   if (!Object.keys(options).length) {
     options = require('../babel.config')
   }
-  console.log(options)
+  // console.log(options)
 
   // 使用异步，防止拿到数据不为同步
   const callback = this.async()
