@@ -7,6 +7,7 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.js":
@@ -15,7 +16,7 @@
   \**********************/
 /***/ (() => {
 
-eval("function add(a, b) {\n  return a + b\n}xy\n\n//# sourceURL=webpack://demo_04_costom_loader/./src/index.js?");
+eval("\n\nconsole.log('src/index.js');\nvar name = 'colin';\nvar x = function x() {\n  console.log('---x');\n};\nx();\n\n//# sourceURL=webpack://demo_04_costom_loader/./src/index.js?");
 
 /***/ })
 

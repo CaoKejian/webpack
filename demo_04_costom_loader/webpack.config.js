@@ -17,18 +17,18 @@ module.exports = {
         // use:'myLoader1.js',
         // use: './loader/myLoader1.js',
         use: [
-          // 'myLoader1',
-          // 'myLoader2',
-          // 'myLoader3',
+          'myLoader1',
+          'myLoader2',
+          'myLoader3',
 
           /* 给loader4传递参数 */
-          {
-            loader: 'myLoader4',
-            options: {
-              name: 'colin',
-              age: '21'
-            }
-          }
+          // {
+          //   loader: 'myLoader4',
+          //   options: {
+          //     name: 'colin',
+          //     age: '21'
+          //   }
+          // }
         ]
       }
 
